@@ -1,0 +1,12 @@
+<div class="carousel">
+   <figure #figure>
+       <img *ngFor="let item of images" src="{{'../assets/'+item.image}}" alt="item.name">
+    </figure>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <nav>
+   </nav>
+   <button (click)="onClick($event)" class="nav next">?מאיפה מזמינים היום</button>
+</div>
